@@ -1,12 +1,6 @@
 <keymap version="1" name="Windows copy 1" parent="$default">
-  <action id="$Copy">
-    <keyboard-shortcut first-keystroke="alt c" />
-  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="alt d" />
-  </action>
-  <action id="Editor Copy">
-    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
