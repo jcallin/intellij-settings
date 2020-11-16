@@ -2,17 +2,45 @@
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
-  <action id="NextTab">
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="EditorPasteFromX11">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="EditorPasteSimple" />
+  <action id="EmmetNextEditPoint" />
+  <action id="EmmetPreviousEditPoint" />
+  <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
-  <action id="PreviousTab">
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+  <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl s" />
@@ -21,5 +49,10 @@
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="Terminal.Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="alt v" />
   </action>
 </keymap>
