@@ -22,6 +22,9 @@
   <action id="EditorPasteSimple" />
   <action id="EmmetNextEditPoint" />
   <action id="EmmetPreviousEditPoint" />
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
@@ -55,4 +58,5 @@
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
+  <action id="tasks.goto" />
 </keymap>
