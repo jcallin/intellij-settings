@@ -9,6 +9,9 @@
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
