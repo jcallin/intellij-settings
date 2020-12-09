@@ -1,14 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="conf" type="HOCON" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="scalikejdbc-config" type="PLAIN_TEXT" />
       <mapping pattern="Pipfile-lambda" type="PLAIN_TEXT" />
       <mapping ext="geojson" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
-      <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
     </extensionMap>
   </component>
