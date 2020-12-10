@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern=".jvmopts" type="PLAIN_TEXT" />
       <mapping pattern="scalikejdbc-config" type="PLAIN_TEXT" />
       <mapping pattern="Pipfile-lambda" type="PLAIN_TEXT" />
       <mapping ext="geojson" type="PLAIN_TEXT" />
